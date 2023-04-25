@@ -31,11 +31,3 @@ On your Ubuntu VM, install the wget and apt-utils packages. These tools are nece
 ```bash
 sudo apt update
 sudo apt install wget apt-utils -y
-
-## Step 4: Download and run the repository creation script
-
-Create a new script file called `create_apt_repo.sh` and paste the content of the script provided in this post. Update the script with your Azure Storage Account details, such as ACCOUNT_NAME, ACCOUNT_KEY, and CONTAINER_NAME. Then, make the script executable and run it:
-
-```bash
-chmod +x create_apt_repo.sh
-./create_apt_repo.sh
