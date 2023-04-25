@@ -33,23 +33,9 @@ sudo apt update
 sudo apt install wget apt-utils -y
 
 ## Step 4: Download and run the repository creation script
-Create a new script file called create_apt_repo.sh and paste the content of the script provided in this post. Update the script with your Azure Storage Account details, such as ACCOUNT_NAME, ACCOUNT_KEY, and CONTAINER_NAME. Then, make the script executable and run it:
+
+Create a new script file called `create_apt_repo.sh` and paste the content of the script provided in this post. Update the script with your Azure Storage Account details, such as ACCOUNT_NAME, ACCOUNT_KEY, and CONTAINER_NAME. Then, make the script executable and run it:
 
 ```bash
-
 chmod +x create_apt_repo.sh
 ./create_apt_repo.sh
-
-## Step 5: Configure the APT repository on client machines
-After running the script, you'll have a local APT repository hosted in an Azure Blob Storage container. To use this repository as a package source on an Ubuntu machine, add the repository URL to the /etc/apt/sources.list file:
-
-```bash
-
-echo "deb [trusted=yes] https://<ACCOUNT_NAME>.blob.core.windows.net/<CONTAINER_NAME>/dists/<RELEASE_NAME>/main/binary-amd64/ /" | sudo tee -a /etc/apt/sources.list
-
-## Conclusion
-In this tutorial, we showed you how to create a local APT repository hosted on Azure Blob Storage. This approach provides a scalable and accessible solution for hosting custom APT repositories. Now you can easily manage your custom packages or mirror existing repositories for faster access.
-
-Please note that the provided script does not include GnuPG signing for the repository. You may need to modify the script or follow additional steps to include GnuPG signing to ensure the integrity and authenticity of your APT repository.
-
-Happy package managing!
