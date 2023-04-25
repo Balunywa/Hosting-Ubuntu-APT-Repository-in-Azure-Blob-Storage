@@ -1,5 +1,5 @@
 # Create a Local APT Repository on Azure Blob Storage
-In this tutorial, we will show you how to create a local APT repository hosted on Azure Blob Storage. This approach provides a scalable and accessible solution for hosting custom APT repositories, allowing you to easily manage your custom packages or mirror existing repositories for faster access. This is for both public storage accounts and private storage accounts using private end points.
+In this tutorial, I will show you how to create a local APT repository hosted on Azure Blob Storage. This approach provides a scalable and accessible solution for hosting custom APT repositories, allowing you to easily manage your custom packages or mirror existing repositories for faster access. This is for both public storage accounts and private storage accounts using private end points.
 
 ## Prerequisites
 
