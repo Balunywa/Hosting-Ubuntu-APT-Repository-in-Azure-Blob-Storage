@@ -32,7 +32,7 @@ az login
 </pre>
 ### Step 4: Download and Run the Repository Creation Script
 
-To get started, create a new script file called `create_apt_repo.sh` and paste the content of the script provided in this `create_apt_repo.sh` file . Update the script with your Azure Storage Account details, such as `ACCOUNT_NAME`, `ACCOUNT_KEY`, and `CONTAINER_NAME`. 
+To get started, create a new script file called `create_apt_repo.sh` and paste the content of the script provided in the repo file called `create_apt_repo.sh". Update the script with your Azure Storage Account details, such as `ACCOUNT_NAME`, `ACCOUNT_KEY`, and `CONTAINER_NAME`. 
 
 Here's a brief overview of what the script does:
 
