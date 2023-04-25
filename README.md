@@ -6,8 +6,9 @@ In this tutorial, we will show you how to create a local APT repository hosted o
 An Azure account with an active subscription.
 The Azure CLI installed on your local machine.
 An Ubuntu Linux VM for testing.
-Step 1: Create a new storage account and container
-Create a new storage account in the Azure portal, ensuring that the "hierarchical namespace" feature is enabled. Make sure the storage account is publicly accessible for testing purposes (not recommended for development or production environments). For production environments, you should use Private Endpoints.
+
+## Step 1: Create a new storage account and container
+Create a new storage account in the Azure portal, ensuring that the "hierarchical namespace" feature is enabled. Make sure the storage account is publicly accessible for testing purposes (not recommended for production environments). For production environments, you should use Private Endpoints.
 
 ## Step 2: Install the Azure CLI on the Ubuntu VM
 
