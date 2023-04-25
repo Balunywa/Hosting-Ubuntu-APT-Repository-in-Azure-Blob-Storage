@@ -13,10 +13,13 @@ Create a new storage account in the Azure portal, ensuring that the "hierarchica
 
 Install the Azure CLI on your Ubuntu VM by running the following commands:
 
+<pre>
+```
 bash
 Copy code
 curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
-
+```
+</pre>
 ## Step 3: Authenticate with your Azure account
 
 Authenticate your Ubuntu VM with your Azure account by running the following command and following the on-screen instructions:
